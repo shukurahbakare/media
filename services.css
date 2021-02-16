@@ -1,0 +1,222 @@
+/*-------------------------------------- Global --------------------------------------*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width:80%;
+  height:auto;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+  width:100%;
+  height:auto;
+}
+
+.flex {
+  width:50%;
+  height:auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  opacity:0.5;
+}
+
+
+/*-------------------------------------- Header --------------------------------------*/
+header {
+  width:100%;
+  height:60px;
+  background-color: blue;
+  position: fixed;
+  top:0;
+  z-index: 100;
+}
+
+.navbar ul li {
+  float:left;
+  padding: 1em 0;
+  margin-left: 25px;
+}
+
+.navbar ul li a {
+  color:white;
+}
+
+.links li:last-child {
+  background-color: #E9B606;
+  padding: 4px 3px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/*-------------------------------------- Banner --------------------------------------*/
+
+section {
+  background-color: rgb(7, 7, 107); 
+  width:100%;
+  height: 150px;
+  margin-top: 50px;
+}
+.banner-text {
+  height: 100px;
+}
+
+.banner-text h1 {
+  color:white;
+  padding-top:50px;
+  font-size: 2em ;
+  font-weight: bold;
+}
+
+hr {
+  width:13%;
+  color: #E9B606;
+  background-color:  #E9B606 ;
+  border:solid ;
+  margin-top: 10px;
+}
+
+/*-------------------------------------- Service --------------------------------------*/
+
+.service {
+  width:100%;
+  height:400px;
+  margin-top: 80px;
+  background-color: white;
+}
+ .service .flex-container {
+  width: 100%;
+  display:flex;
+  height:400px;
+}
+
+.service .flex-container .image{
+  /* margin-right: 50px; */
+}
+
+.image img{
+   /* padding-left: 30px; 
+   padding-right: 30px; */
+}
+
+.service .flex-container .text {
+  background-color:blue;
+  /* margin-right: 50px; */
+  
+}
+
+.text h2{
+  
+  margin-left: 50px;
+  margin-bottom: 15px;
+  margin-top:10px;
+  line-height:50px;
+  color:white;
+}
+
+.text ul {
+  list-style-type: disc;
+  margin-left: 50px;
+  color:white;
+}
+
+/*-------------------------------------- Free Press --------------------------------------*/
+
+.pres {
+  background-color: white;
+}
+.press {
+  width:100%;
+  height: 200px;
+  margin-top: 50px;
+}
+
+.press {
+  text-align: center;
+  /* padding-top: 180px; */
+  border: 10px solid blue;
+  margin-top:180px;
+  padding:40px;
+  margin-bottom: 90px;
+}
+
+.press button {
+  margin-top: 40px;
+  background-color: #E9B606;
+  padding: 4px 3px;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 10px;
+  COLOR:white;
+  border: none;
+}
+
+/*-------------------------------------- Footer --------------------------------------*/
+
+footer{
+  width:100%;
+  height:220px;
+  background-color: black;
+  margin-top: 180px;
+}
+
+footer .flex-container {
+  width:100%;
+  height:220px;
+  padding-top:90px;
+  background-color: black;
+  display: flex;
+}
+
+footer .flex-container .flex {
+  height:120px;
+  background-color: black;
+}
+
+footer .flex-container .logo {
+  margin-right:20px;
+}
+
+.list {
+  float:right;
+  color:white;
+}
+
+.list a{
+  color:white;
+}
+
+.box2 ul {
+     float: right;
+     display: flex;
+     margin-right: 50px;
+}
+
+.box2 ul li {
+   padding:10px;
+   background-color: white;
+   color:black;
+   border-radius: 51%;
+   margin: 2px;
+}
+
+.box2 h6 {
+  color:white;
+}
+
+.mail {
+  color:white;
+}

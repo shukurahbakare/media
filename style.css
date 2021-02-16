@@ -1,0 +1,260 @@
+/*-------------------------------------- Global --------------------------------------*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width:80%;
+  height:auto;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+  width:100%;
+  height:auto;
+}
+
+.flex {
+  width:50%;
+  height:auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  
+}
+a:hover{
+  opacity:0.5;
+  
+}
+
+/*-------------------------------------- Nav Bar --------------------------------------*/
+header {
+  width:100%;
+  height:60px;
+  background-color: blue;
+  position: fixed;
+  top:0;
+  z-index: 100;
+  
+}
+
+.navbar ul li {
+  float:left;
+  padding: 1em 0;
+  margin-left: 25px;
+}
+
+.navbar ul li a {
+  color:white;
+}
+
+.links li:last-child {
+  background-color: #E9B606;
+  padding: 4px 3px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/*-------------------------------------- Banner --------------------------------------*/
+.banner {
+  height:400px;
+  width:100%;
+  background-image: url(https://res.cloudinary.com/shuks/image/upload/v1613467839/banner-image_aayt6j.png);
+  background-size: cover;
+  position: relative; 
+  top:10px;
+  margin-top:50px;
+}
+
+.banner .flex {
+  height:190px;
+  padding: 30px;
+  margin-top: 80px;
+}
+
+.banner .text {
+  color:white;
+  padding-left: 200px;
+  font-size: 24px;
+  text-shadow: 2px  white ;
+  font-weight: bold;
+}
+
+.banner .text h1+button{
+  color:white;
+  background-color:  #E9B606;
+  border-radius: 20px;
+  border-style: none;
+  padding:10px;
+  margin-top: 10px;
+}
+
+
+/*-------------------------------------- Who We Are Section --------------------------------------*/
+ 
+.who-we-are .flex {
+  margin-top:120px;
+  margin-right: 25px;
+}
+.images {
+  height:400px;
+  background-image: url(https://res.cloudinary.com/shuks/image/upload/v1613468374/plain-rectangle_wbukyy.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
+} 
+
+.images img {
+  width: 100%;
+  height: inherit;
+  position:relative; 
+  top:8px;
+  left:10px;
+}
+
+.who-we-are .flex+.flex {
+  height: 400px;
+}  
+
+.who-we-are .flex+.flex h2,p{
+  color:black;
+  margin-top:50px;
+  margin-bottom: 25px;
+}
+
+ .who-we-are .flex+.flex a { 
+    border-bottom: 3px solid #E9B606;
+    color:black;
+    padding-bottom:15px;
+    font-size: 12px;
+}
+
+.our-approach {
+  width:100%;
+  background-color: blue;
+  height:500px;
+  margin-top:50px;
+}
+
+.our-approach .flex-container {
+  width:100%;
+  height:420px;
+  padding-top:90px;
+}
+
+.our-approach  p,h2{
+  color:white;
+}
+
+.our-approach a { 
+  border-bottom: 3px solid  #E9B606;
+  color:black;
+  padding-bottom:15px;
+  font-size: 12px;
+}
+
+/*-------------------------------------- Free Press --------------------------------------*/
+
+.press {
+  width:100%;
+  height: 200px;
+  margin-top: 50px;
+}
+
+.press {
+  text-align: center;
+  border: 10px solid blue;
+  margin-top:180px;
+  padding:40px;
+  margin-bottom: 90px;
+}
+
+.press button {
+  margin-top: 40px;
+  background-color:  #E9B606;
+  color:white;
+  border: 2px;
+  padding:5px;
+  font-size: 10px;
+}
+
+/*-------------------------------------- Footer --------------------------------------*/
+
+footer{
+  width:100%;
+  height:220px;
+  background-color: black;
+}
+
+footer .flex-container {
+  width:100%;
+  height:220px;
+  padding-top:90px;
+  background-color: black;
+  display: flex;
+}
+
+footer .flex-container .flex {
+  height:120px;
+  background-color: black;
+  
+}
+
+footer .flex-container .logo {
+  margin-right:20px;
+  
+}
+
+.list {
+  float:right;
+  color:white;
+}
+
+.list a{
+  color:white;
+}
+
+.box2 ul {
+     float: right;
+     display: flex;
+     margin-right: 50px;
+}
+
+.box2 ul li {
+   padding:10px;
+   background-color: white;
+   color:black;
+   border-radius: 51%;
+   margin: 2px;
+}
+
+.box2 h6 {
+  color:white;
+}
+
+.mail {
+  color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
